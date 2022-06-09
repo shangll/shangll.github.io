@@ -3,7 +3,8 @@
 
 - - -
 ### <font color=CornflowerBlue>Research Interests</font>
-My study interest lies in hybrid search to understand how individuals interact with the external world and how the brain optimally respond to items according to the representations of items stored in memory.<br>
+My study interest lies in hybrid search to understand how individuals interact with the external world and how the brain optimally respond to items according to the representations of items stored in memory.
+
 _Keywords_: Workload Capacity, Working Memory Capacity, Associative Memory, Visual Memory Search<br>
 
 ### <font color=CornflowerBlue>Current Degree Program</font>
