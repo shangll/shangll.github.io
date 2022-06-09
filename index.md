@@ -20,11 +20,11 @@ Institution: Donders Institute for Brain, Cognition, and Behaviour in Netherland
 
 ### <font color=SteelBlue>Publications</font>
 - - -
->#### <table><tr><td bgcolor=#DCDCDC><font color=SteelBlue>Journals</font></td></tr></table>
+#### <table><tr><td bgcolor=#DCDCDC><font color=SteelBlue>_**Journals**_</font></td></tr></table>
 
 - **<font color=DimGray>Shang, L.</font>**, Little, D. R., Webb, M. E., Eidels, A., & Yang, C.-T. (2021). The workload capacity of semantic search in convergent thinking. _Journal of Experimental Psychology: General, 150_(11), 2230–2245. [https://doi.org/10.1037/xge0001045](https://doi.org/10.1037/xge0001045)<br>
 
->#### <table><tr><td bgcolor=#DCDCDC><font color=SteelBlue>Conferences</font></td></tr></table>
+#### <table><tr><td bgcolor=#DCDCDC><font color=SteelBlue>_**Conferences**_</font></td></tr></table>
 
 - **<font color=DimGray>Shang, L.</font>**, Zhao, Y., & Peelen M. (2021, August). _The efficiency of memory search depends on categorical target-distractor similarity_. Poster session presented at European Conference on Visual Perception 2022, Nijmegen, The Netherlands.
 - **<font color=DimGray>Shang, L.</font>**, Little, D., Webb, M., Eidels, A., & Yang, C.-T. (2020, July). _The workload capacity of semantic search in convergent thinking_. Paper presented at Virtual MathPsych/ICCM 2020. Via [mathpsych.org/presentation/140](mathpsych.org/presentation/140).<br>
