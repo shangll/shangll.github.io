@@ -35,12 +35,15 @@ Fudan University – Institute of Science and Technology for Brain-inspired Inte
     Supervisor: LI Liang
     https://www.psy.pku.edu.cn/english/people/faculty/professor/liangli/index.htm
     Institution: Peking University in P.R. China (Beijing)
+
 #### Cultural Studies
 - **LL.M. 07-2012**
+
     Study on Cultural Norms and Hegemony
     Supervisor: ZHANG Yuguo
     Institution: Jilin University in P.R. China (Jilin prov.)
 - **B.A. 07-2009**
+
     Study on Commercial Culture of Ming Dynasty
     Supervisor: LI Qiuju
     Institution: North China Institute of Science and Technology in P.R. China (Beijing)
