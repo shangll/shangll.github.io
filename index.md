@@ -1,8 +1,14 @@
-## Welcome to GitHub Pages
+## Welcome to My GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/shangll/shangll.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+### Research Interests
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+My study interest lies in hybrid search to understand how individuals interact with the external world and how the brain optimally respond to items according to the representations of items stored in memory.
+
+_Keywords_: Workload Capacity, Visual Memory Search
+
+### My Publications
+
+- **Shang, L.**, Little, D. R., Webb, M. E., Eidels, A., & Yang, C.-T. (2021). The workload capacity of semantic search in convergent thinking. _Journal of Experimental Psychology: General, 150_(11), 2230–2245. [https://doi.org/10.1037/xge0001045](https://doi.org/10.1037/xge0001045)
 
 ### Markdown
 
