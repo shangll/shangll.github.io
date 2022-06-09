@@ -12,6 +12,7 @@ _Keywords_: Workload Capacity, Visual Memory Search
 
 ### Conferences
 
+- **Shang, L.**, Zhao, Y., & Peelen M. (2021, August). _The efficiency of memory search depends on categorical target-distractor similarity_. Poster session presented at European Conference on Visual Perception 2022, Nijmegen, The Netherlands.
 - **Shang, L.**, Little, D., Webb, M., Eidels, A., & Yang, C.-T. (2020, July). _The workload capacity of semantic search in convergent thinking_. Paper presented at Virtual MathPsych/ICCM 2020. Via [mathpsych.org/presentation/140](mathpsych.org/presentation/140).
 
 ### Markdown
