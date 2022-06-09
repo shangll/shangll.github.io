@@ -10,6 +10,10 @@ _Keywords_: Workload Capacity, Visual Memory Search
 
 - **Shang, L.**, Little, D. R., Webb, M. E., Eidels, A., & Yang, C.-T. (2021). The workload capacity of semantic search in convergent thinking. _Journal of Experimental Psychology: General, 150_(11), 2230–2245. [https://doi.org/10.1037/xge0001045](https://doi.org/10.1037/xge0001045)
 
+### Conferences
+
+- **Shang, L.**, Little, D., Webb, M., Eidels, A., & Yang, C.-T. (2020, July). _The workload capacity of semantic search in convergent thinking_. Paper presented at Virtual MathPsych/ICCM 2020. Via [mathpsych.org/presentation/140](mathpsych.org/presentation/140).
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
