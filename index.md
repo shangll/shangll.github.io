@@ -1,4 +1,5 @@
 ## <font color=SteelBlue>Welcome to My Website</font>
+<br>
 
 
 ### <font color=SteelBlue>Research Interests</font>
@@ -11,9 +12,8 @@ _Keywords_: Workload Capacity, Working Memory Capacity, Associative Memory, Visu
 
 ### <font color=SteelBlue>Current Degree Program</font>
 - - -
-Program: Non-target processing in visual memory search<br>
-Supervisor: Marius PEELEN<br>
-https://www.ru.nl/donders/research/theme-2-perception-action-decision-making/research-groups-theme-2/visual-cognitive-neuroscience/<br>
+Program: Non-Target Processing in Visual Memory Search<br>
+Supervisor: Marius PEELEN - [Visual Cognitive Neuroscience](https://www.ru.nl/donders/research/theme-2-perception-action-decision-making/research-groups-theme-2/visual-cognitive-neuroscience/)<br>
 Institution: Donders Institute for Brain, Cognition, and Behaviour in Netherlands (Nijmegen)<br>
 <br>
 
