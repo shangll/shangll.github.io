@@ -21,11 +21,11 @@ Institution: Donders Institute for Brain, Cognition, and Behaviour in Netherland
 ### <font color=SteelBlue>Publications</font>
 - - -
 >#### <font color=SteelBlue>Journals</font>
-- **Shang, L.**, Little, D. R., Webb, M. E., Eidels, A., & Yang, C.-T. (2021). The workload capacity of semantic search in convergent thinking. _Journal of Experimental Psychology: General, 150_(11), 2230–2245. [https://doi.org/10.1037/xge0001045](https://doi.org/10.1037/xge0001045)<br>
+- **<font color=DimGray>Shang, L.</font>**, Little, D. R., Webb, M. E., Eidels, A., & Yang, C.-T. (2021). The workload capacity of semantic search in convergent thinking. _Journal of Experimental Psychology: General, 150_(11), 2230–2245. [https://doi.org/10.1037/xge0001045](https://doi.org/10.1037/xge0001045)<br>
 
 >#### <font color=SteelBlue>Conferences</font>
-- **Shang, L.**, Zhao, Y., & Peelen M. (2021, August). _The efficiency of memory search depends on categorical target-distractor similarity_. Poster session presented at European Conference on Visual Perception 2022, Nijmegen, The Netherlands.
-- **Shang, L.**, Little, D., Webb, M., Eidels, A., & Yang, C.-T. (2020, July). _The workload capacity of semantic search in convergent thinking_. Paper presented at Virtual MathPsych/ICCM 2020. Via [mathpsych.org/presentation/140](mathpsych.org/presentation/140).<br>
+- **<font color=DimGray>Shang, L.</font>**, Zhao, Y., & Peelen M. (2021, August). _The efficiency of memory search depends on categorical target-distractor similarity_. Poster session presented at European Conference on Visual Perception 2022, Nijmegen, The Netherlands.
+- **<font color=DimGray>Shang, L.</font>**, Little, D., Webb, M., Eidels, A., & Yang, C.-T. (2020, July). _The workload capacity of semantic search in convergent thinking_. Paper presented at Virtual MathPsych/ICCM 2020. Via [mathpsych.org/presentation/140](mathpsych.org/presentation/140).<br>
 <br>
 
 
@@ -33,29 +33,29 @@ Institution: Donders Institute for Brain, Cognition, and Behaviour in Netherland
 - - -
 **<font color=DimGray>Sept.2016 – Oct.2016 & Sept.2017 – July 2019</font>**<br>
 Beijing Normal University – State Key Laboratory of Cognitive Neuroscience and Learning<br>
-**<font color=Gray>Dec.2016 – Jul.2017</font>**<br>
+**<font color=DimGray>Dec.2016 – Jul.2017</font>**<br>
 Fudan University – Institute of Science and Technology for Brain-inspired Intelligence<br>
 <br>
 
 
 ### <font color=SteelBlue>Education</font>
 - - -
-**Psychology**<br>
-**M.S. June.2016**<br>
+**<font color=DimGray>Psychology</font>**<br>
+**<font color=Gray>M.S. June.2016</font>**<br>
 Thesis: Relationship between Processing Capacity of Concept Formation and Creativity<br>
 Supervisor: YANG Cheng-Ta - [VCM Lab](http://vcmlab.psychology.ncku.edu.tw/vcmlab/)<br>
 Institution: National Cheng Kung University in R.O. China (Taiwan Prov.)<br>
-**B.S. July.2013**<br>
+**<font color=Gray>B.S. July.2013</font>**<br>
 Thesis: A Hypothesis on Sensitivity of Natural Human Echolocation in Cocktail-Party Effect<br>
 Supervisor: LI Liang - [School of Psychological and Cognitive Sciences](https://www.psy.pku.edu.cn/english/people/faculty/professor/liangli/index.htm)<br>
 Institution: Peking University in P.R. China (Beijing)<br>
 
-**Cultural Studies**<br>
-**LL.M. July.2012**<br>
+**<font color=DimGray>Cultural Studies</font>**<br>
+**<font color=Gray>LL.M. July.2012</font>**<br>
 Study on Cultural Norms and Hegemony<br>
 Supervisor: ZHANG Yuguo<br>
 Institution: Jilin University in P.R. China (Jilin Prov.)<br>
-**B.A. July.2009**<br>
+**<font color=Gray>B.A. July.2009</font>**<br>
 Study on Commercial Culture of Ming Dynasty<br>
 Supervisor: LI Qiuju<br>
 Institution: North China Institute of Science and Technology in P.R. China (Beijing)<br>
