@@ -31,9 +31,9 @@ Institution: Donders Institute for Brain, Cognition, and Behaviour in Netherland
 
 ### <font color=SteelBlue>Work Experience</font>
 - - -
-<font color=DimGray>**Sept.2016 – Oct.2016 & Sept.2017 – July 2019**</font><br>
+**<font color=DimGray>Sept.2016 – Oct.2016 & Sept.2017 – July 2019</font>**<br>
 Beijing Normal University – State Key Laboratory of Cognitive Neuroscience and Learning<br>
-<font color=Gray>**Dec.2016 – Jul.2017**</font><br>
+**<font color=Gray>Dec.2016 – Jul.2017</font>**<br>
 Fudan University – Institute of Science and Technology for Brain-inspired Intelligence<br>
 <br>
 
