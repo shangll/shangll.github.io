@@ -1,14 +1,12 @@
 ## <font color=SteelBlue>Welcome to My Website</font>
 <br>
 
-
 ### <font color=SteelBlue>Research Interests</font>
 ---
 My study interest lies in hybrid search to understand how individuals interact with the external world and how the brain optimally respond to items according to the representations of items stored in memory.
 
 _Keywords_: Workload Capacity, Working Memory Capacity, Associative Memory, Visual Memory Search<br>
 <br>
-
 
 ### <font color=SteelBlue>Current Degree Program</font>
 ---
@@ -17,17 +15,15 @@ Supervisor: Marius PEELEN - [Visual Cognitive Neuroscience](https://www.ru.nl/do
 Institution: Donders Institute for Brain, Cognition, and Behaviour in Netherlands (Nijmegen)<br>
 <br>
 
-
 ### <font color=SteelBlue>Publications</font>
 ---
-<font color=SteelBlue>Journals</font><br>
+_**<font color=SteelBlue>Journals</font>**_<br>
 - **<font color=DimGray>Shang, L.</font>**, Little, D. R., Webb, M. E., Eidels, A., & Yang, C.-T. (2021). The workload capacity of semantic search in convergent thinking. _Journal of Experimental Psychology: General, 150_(11), 2230–2245. [https://doi.org/10.1037/xge0001045](https://doi.org/10.1037/xge0001045)<br>
 
-<font color=SteelBlue>Conferences</font><br>
+_**<font color=SteelBlue>Conferences</font><br>**_
 - **<font color=DimGray>Shang, L.</font>**, Zhao, Y., & Peelen M. (2021, August). _The efficiency of memory search depends on categorical target-distractor similarity_. Poster session presented at European Conference on Visual Perception 2022, Nijmegen, The Netherlands.
 - **<font color=DimGray>Shang, L.</font>**, Little, D., Webb, M., Eidels, A., & Yang, C.-T. (2020, July). _The workload capacity of semantic search in convergent thinking_. Paper presented at Virtual MathPsych/ICCM 2020. Via [mathpsych.org/presentation/140](mathpsych.org/presentation/140).<br>
 <br>
-
 
 ### <font color=SteelBlue>Work Experience</font>
 ---
@@ -36,7 +32,6 @@ Beijing Normal University – State Key Laboratory of Cognitive Neuroscience and
 **<font color=DimGray>Dec.2016 – Jul.2017</font>**<br>
 Fudan University – Institute of Science and Technology for Brain-inspired Intelligence<br>
 <br>
-
 
 ### <font color=SteelBlue>Education</font>
 ---
