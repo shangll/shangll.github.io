@@ -24,9 +24,9 @@ _**<font color=SteelBlue>Conferences</font>**_
 
 ## <font color=SteelBlue>Work Experience</font>
 **<font color=DimGray>Sept.2016 – Oct.2016 & Sept.2017 – July 2019</font>**<br>
-Beijing Normal University – State Key Laboratory of Cognitive Neuroscience and Learning<br>
+Beijing Normal University – State Key Laboratory of Cognitive Neuroscience and Learning; served as RA<br>
 **<font color=DimGray>Dec.2016 – Jul.2017</font>**<br>
-Fudan University – Institute of Science and Technology for Brain-inspired Intelligence<br>
+Fudan University – Institute of Science and Technology for Brain-inspired Intelligence; served as RA<br>
 <br>
 
 ## <font color=SteelBlue>Education</font>
