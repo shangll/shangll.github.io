@@ -30,7 +30,7 @@ Fudan University – Institute of Science and Technology for Brain-inspired Inte
 <br>
 
 ## <font color=SteelBlue>Education</font>
-**<font color=DimGray>Psychology</font>**<br>
+**<font color=DimGray>Major: Psychology</font>**<br>
 **<font color=Gray>M.S. June.2016</font>**<br>
 Thesis: Relationship between Processing Capacity of Concept Formation and Creativity<br>
 Supervisor: YANG Cheng-Ta - [VCM Lab](http://vcmlab.psychology.ncku.edu.tw/vcmlab/)<br>
@@ -40,13 +40,13 @@ Thesis: A Hypothesis on Sensitivity of Natural Human Echolocation in Cocktail-Pa
 Supervisor: LI Liang - [School of Psychological and Cognitive Sciences](https://www.psy.pku.edu.cn/english/people/faculty/professor/liangli/index.htm)<br>
 Institution: Peking University in P.R. China (Beijing)  
 
-**<font color=DimGray>Cultural Studies</font>**<br>
+**<font color=DimGray>Marjor: Cultural Studies</font>**<br>
 **<font color=Gray>LL.M. July.2012</font>**<br>
 Study on Cultural Norms and Hegemony<br>
 Supervisor: ZHANG Yuguo<br>
 Institution: Jilin University in P.R. China (Jilin Prov.)<br>
 **<font color=Gray>B.A. July.2009</font>**<br>
-Study on Commercial Culture of Ming Dynasty<br>
+Study on Commercial Culture and Social Life of the Late Ming Dynasty<br>
 Supervisor: LI Qiuju<br>
 Institution: North China Institute of Science and Technology in P.R. China (Beijing)<br>
 - - -
