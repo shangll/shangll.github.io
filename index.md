@@ -3,7 +3,7 @@
 
 
 ### <font color=SteelBlue>Research Interests</font>
-- - -
+---
 My study interest lies in hybrid search to understand how individuals interact with the external world and how the brain optimally respond to items according to the representations of items stored in memory.
 
 _Keywords_: Workload Capacity, Working Memory Capacity, Associative Memory, Visual Memory Search<br>
@@ -11,7 +11,7 @@ _Keywords_: Workload Capacity, Working Memory Capacity, Associative Memory, Visu
 
 
 ### <font color=SteelBlue>Current Degree Program</font>
-- - -
+---
 Program: Non-Target Processing in Visual Memory Search<br>
 Supervisor: Marius PEELEN - [Visual Cognitive Neuroscience](https://www.ru.nl/donders/research/theme-2-perception-action-decision-making/research-groups-theme-2/visual-cognitive-neuroscience/)<br>
 Institution: Donders Institute for Brain, Cognition, and Behaviour in Netherlands (Nijmegen)<br>
@@ -19,7 +19,7 @@ Institution: Donders Institute for Brain, Cognition, and Behaviour in Netherland
 
 
 ### <font color=SteelBlue>Publications</font>
-- - -
+---
 <table><tr><td bgcolor=Gainsboro><font color=SteelBlue>Journals</font></td></tr></table>
 
 - **<font color=DimGray>Shang, L.</font>**, Little, D. R., Webb, M. E., Eidels, A., & Yang, C.-T. (2021). The workload capacity of semantic search in convergent thinking. _Journal of Experimental Psychology: General, 150_(11), 2230–2245. [https://doi.org/10.1037/xge0001045](https://doi.org/10.1037/xge0001045)<br>
@@ -32,7 +32,7 @@ Institution: Donders Institute for Brain, Cognition, and Behaviour in Netherland
 
 
 ### <font color=SteelBlue>Work Experience</font>
-- - -
+---
 **<font color=DimGray>Sept.2016 – Oct.2016 & Sept.2017 – July 2019</font>**<br>
 Beijing Normal University – State Key Laboratory of Cognitive Neuroscience and Learning<br>
 **<font color=DimGray>Dec.2016 – Jul.2017</font>**<br>
@@ -41,7 +41,7 @@ Fudan University – Institute of Science and Technology for Brain-inspired Inte
 
 
 ### <font color=SteelBlue>Education</font>
-- - -
+---
 **<font color=DimGray>Psychology</font>**<br>
 **<font color=Gray>M.S. June.2016</font>**<br>
 Thesis: Relationship between Processing Capacity of Concept Formation and Creativity<br>
