@@ -1,18 +1,21 @@
 # <font color=SteelBlue>Welcome to My Website</font>
 <br>
 
+---
 ## <font color=SteelBlue>Research Interests</font>
 My study interest lies in hybrid search to understand how individuals interact with the external world and how the brain optimally respond to items according to the representations of items stored in memory.  
 
 _Keywords_: Workload Capacity, Working Memory Capacity, Associative Memory, Visual Memory Search<br>
 <br>
 
+---
 ## <font color=SteelBlue>Current Degree Program</font>
 Program: Non-Target Processing in Visual Memory Search<br>
 Supervisor: Marius PEELEN - [Visual Cognitive Neuroscience](https://www.ru.nl/donders/research/theme-2-perception-action-decision-making/research-groups-theme-2/visual-cognitive-neuroscience/)<br>
 Institution: Donders Institute for Brain, Cognition, and Behaviour in Netherlands (Nijmegen)<br>
 <br>
 
+---
 ## <font color=SteelBlue>Publications</font>
 _**<font color=SteelBlue>Journals</font>**_
 - **<font color=DimGray>Shang, L.</font>**, Little, D. R., Webb, M. E., Eidels, A., & Yang, C.-T. (2021). The workload capacity of semantic search in convergent thinking. _Journal of Experimental Psychology: General, 150_(11), 2230–2245. [https://doi.org/10.1037/xge0001045](https://doi.org/10.1037/xge0001045)  
@@ -22,6 +25,7 @@ _**<font color=SteelBlue>Conferences</font>**_
 - **<font color=DimGray>Shang, L.</font>**, Little, D., Webb, M., Eidels, A., & Yang, C.-T. (2020, July). _The workload capacity of semantic search in convergent thinking_. Paper presented at Virtual MathPsych/ICCM 2020. Via [mathpsych.org/presentation/140](mathpsych.org/presentation/140).<br>
 <br>
 
+---
 ## <font color=SteelBlue>Work Experience</font>
 **<font color=DimGray>Sept.2016 – Oct.2016 & Sept.2017 – July 2019</font>**<br>
 Beijing Normal University – State Key Laboratory of Cognitive Neuroscience and Learning; served as RA<br>
@@ -29,6 +33,7 @@ Beijing Normal University – State Key Laboratory of Cognitive Neuroscience and
 Fudan University – Institute of Science and Technology for Brain-inspired Intelligence; served as RA<br>
 <br>
 
+---
 ## <font color=SteelBlue>Education</font>
 **<font color=DimGray>Major: Psychology</font>**<br>
 **<font color=Gray>M.S. June.2016</font>**<br>
