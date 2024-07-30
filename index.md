@@ -22,6 +22,6 @@ Institution: Donders Institute for Brain, Cognition, and Behaviour in Netherland
 
 * * *
 
-Address: Thomas van Aquinostraat 4, 6525 GD Nijmegen
+<div style="line-height: 1;">Address: Thomas van Aquinostraat 4, 6525 GD Nijmegen
 
-Contact: linlin.shang@donders.ru.nl
+Contact: linlin.shang@donders.ru.nl</div>
