@@ -22,4 +22,5 @@ Institution: Donders Institute for Brain, Cognition, and Behaviour in Netherland
 
 * * *
 
-![email](https://github.githubassets.com/images/icons/emoji/octocat.png)
+Address: Thomas van Aquinostraat 4, 6525 GD Nijmegen
+Contact: linlin.shang@donders.ru.nl
