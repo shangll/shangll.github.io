@@ -2,23 +2,13 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+## About me
 
-[Link to another page](./another-page.html).
+My research interest lies in information processing to understand how individuals interact with the external world. A special focus on workload capacity and efficiency of the visual memory search by which how the brain optimally responds to variations can be investigated.
 
-There should be whitespace between paragraphs.
+*Keywords*: information processing, workload capacity/processing efficiency, categorization, DNNs (e.g., AlexNet, NLP), associative memory, semantic/visual memory search, hybrid search, visual object recognition
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+Skills: **EEG (preferred)**, fMRI; C, MATLAB, **Python**, **R**
 
 ### Header 3
 
