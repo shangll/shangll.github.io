@@ -14,6 +14,7 @@
   </head>
   <body>
     <div class="wrapper">
+      
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
@@ -42,14 +43,16 @@
         <p class="view"><a href="{{ site.github.subpage-1-paper }}"><font size=12>Publications</font> <small> </small></a></p>
         <p class="view"><a href="{{ site.github.subpage-2-confer }}"><font size=12>Conferences</font> <small> </small></a></p>
         <p class="view"><a href="{{ site.github.subpage-3-blog }}"><font size=12>Blog</font> <small> </small></a></p>
-        
-        
       </header>
+      
+      
       <section>
       
       {{ content }}
       
       </section>
+
+      
       <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
