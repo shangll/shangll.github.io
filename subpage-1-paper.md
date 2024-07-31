@@ -1,8 +1,7 @@
 ---
 layout: default
+title: Journal Articles
 ---
-
-## Journal Articles
 
 - **Shang, L.\***, Yeh, L.-C., Zhao, Y., Wiegand, I., & **Peelen, M. V.\*** (2024). Category-based attention facilitates memory search. *eNeuro,11*(2), ENEURO.0012-24.2024. [https://doi.org/10.1523/ENEURO.0012-24.2024](https://doi.org/10.1523/ENEURO.0012-24.2024)
 *Download: [Data](https://github.com/shangll/OData_VisMemSch) [Paper](https://github.com/shangll/OData_VisMemSch/blob/main/SL_2024_eNeuro_VisMemo.pdf)*
