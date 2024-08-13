@@ -12,9 +12,11 @@ Skills: **EEG (preferred)**, fMRI; C, MATLAB, **Python**, **R**
 
 # Current Program
 
-<p style="line-height: 1;">Program: How we see what is new: The role of attention and object attributes in visual memory search</p>
+Program: How we see what is new: The role of attention and object attributes in visual memory search
+
 Supervisor: Marius Peelen - [Visual Cognitive Neuroscience](https://www.ru.nl/en/departments/donders-centre-for-cognition/visual-cognitive-neuroscience)
-<p style="line-height: 1;">Institution: Donders Institute for Brain, Cognition, and Behaviour in Netherlands (Nijmegen)</p>
+
+Institution: Donders Institute for Brain, Cognition, and Behaviour in Netherlands (Nijmegen)
 
 # News
 
