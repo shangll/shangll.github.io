@@ -6,7 +6,7 @@ layout: default
 
 * * *
 
-[\[2024-08-13\] Pytorch笔记 W1D1 Making Tensors](https://shangll.notion.site/W1D1-Making-Tensors-fd6c7365b7154019826166e212351882?pvs=4)
+[\[2024-08-13\] Pytorch笔记 W1D1 Making Tensors](https://shangll.notion.site/W1D1-Making-Tensors-fd6c7365b7154019826166e212351882?pvs=74)
 
 [\[2016-05-01\] Python笔记 CH.8 SET AND DICTIONARIES](https://shangll.notion.site/CH-8-SET-AND-DICTIONARIES-fa99ddf7670e43a0bd2b66932124ead1?pvs=4)
 
