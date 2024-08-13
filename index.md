@@ -18,10 +18,10 @@ Supervisor: Marius Peelen - [Visual Cognitive Neuroscience](https://www.ru.nl/en
 
 # News
 
-- [Python笔记Ch. 8更新](./subpage-3-blog.md)
+- [Python笔记 Ch. 8 SET AND DICTIONARIES 更新](./subpage-3-blog.md)
   
-- [Python笔记Ch. 7更新](./subpage-3-blog.md)
+- [Python笔记 Ch. 7 FILES 更新](./subpage-3-blog.md)
   
-- [Python笔记Ch. 6更新](./subpage-3-blog.md)
+- [Python笔记 Ch. 6 LISTS 更新](./subpage-3-blog.md)
 
 * * *
