@@ -20,12 +20,12 @@ Institution: Donders Institute for Brain, Cognition, and Behaviour in Netherland
 
 # News
 
-- [Python笔记 Ch. 8 SET AND DICTIONARIES 更新](./subpage-3-blog.md)
-  
-- [Python笔记 Ch. 7 FILES 更新](./subpage-3-blog.md)
-  
-- [Python笔记 Ch. 6 LISTS 更新](./subpage-3-blog.md)
+- [\[2024-08-13\] Pytorch笔记 W1D1: Making Tensors 更新](./subpage-3-blog.md)
 
-- [Python笔记 Ch. 5 FUNCTIONS 更新](./subpage-3-blog.md)
+- [\[2016-05-01\] Python笔记 Ch.8: SET AND DICTIONARIES 更新](./subpage-3-blog.md)
+  
+- [\[2016-05-01\] Python笔记 Ch.7: FILES 更新](./subpage-3-blog.md)
+  
+- [\[2016-05-01\] Python笔记 Ch.6: LISTS 更新](./subpage-3-blog.md)
 
 * * *
