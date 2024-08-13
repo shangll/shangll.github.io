@@ -20,4 +20,10 @@ Institution: Donders Institute for Brain, Cognition, and Behaviour in Netherland
 
 # News
 
+- [Python笔记Ch. 8更新](./subpage-3-blog.md)
+
+- [Python笔记Ch. 7更新](./subpage-3-blog.md)
+
+- [Python笔记Ch. 6更新](./subpage-3-blog.md)
+
 * * *
