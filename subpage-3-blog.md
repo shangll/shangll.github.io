@@ -6,6 +6,10 @@ layout: default
 
 * * *
 
+[Python笔记 CH.8 SET AND DICTIONARIES](https://shangll.notion.site/CH-8-SET-AND-DICTIONARIES-fa99ddf7670e43a0bd2b66932124ead1?pvs=4)
+
+[Python笔记 CH.7 FILES](https://shangll.notion.site/CH-7-FILES-36618c5728364f8b8164a087ca78a068?pvs=4)
+
 [Python笔记 CH.6 LISTS](https://shangll.notion.site/CH-6-LISTS-b81ca65d4a434cff9f62b716ce5c92ad?pvs=4)
 
 [Python笔记 CH.5 FUNCTIONS](https://shangll.notion.site/CH-5-FUNCTIONS-cc481748b4b1499cb8608601529b71bc?pvs=4)
