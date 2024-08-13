@@ -6,3 +6,4 @@ layout: default
 
 * * *
 
+[Python笔记 CH.1](https://www.notion.so/shangll/CH-1-INTRO-c1ed960045ce4f868619d96d12b2101a?pvs=4)
