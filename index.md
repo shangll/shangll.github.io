@@ -26,4 +26,8 @@ Institution: Donders Institute for Brain, Cognition, and Behaviour in Netherland
   
 - [Python笔记 Ch. 6 LISTS 更新](./subpage-3-blog.md)
 
+- [Python笔记 Ch. 5 FUNCTIONS 更新](./subpage-3-blog.md)
+
+- [Python笔记 Ch. 4 LOOPS 更新](./subpage-3-blog.md)
+
 * * *
