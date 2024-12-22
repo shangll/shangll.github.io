@@ -4,8 +4,6 @@ layout: default
 
 # About Me
 
-(Name in passport: SHANG Linlin)
-
 My research interest lies in information processing to understand how individuals interact with the external world. A special focus on workload capacity and efficiency of the visual memory search by which how the brain optimally responds to variations can be investigated.
 
 *Keywords*: information processing, workload capacity/processing efficiency, categorization, DNNs (e.g., AlexNet, NLP), associative memory, semantic/visual memory search, hybrid search, visual object recognition
