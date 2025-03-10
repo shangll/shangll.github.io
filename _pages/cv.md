@@ -20,27 +20,16 @@ Supervisor: Marius Peelen - [Visual Cognitive Neuroscience](https://www.ru.nl/en
 Thesis: How we see what is new: The role of attention and object attributes in visual memory search
 
 
-Work experience
+CURRENT WORK EXPERIENCE
 ======
-2024-	Visiting researcher
-	Donders Institute for Brain, Cognition and Behaviour, Netherland
- 
-2017-2019	Research assistant
-	State Key Laboratory of Cognitive Neuroscience and Learning, Beijing Normal University, China
- 
-2016-2017	Research assistant
-	Institute of Science and Technology for Brain-inspired Intelligence, Fudan University, China
- 
-2016-2016	Research assistant 
-	State Key Laboratory of Cognitive Neuroscience and Learning, Beijing Normal University, China
- 
-2015-2015	Teaching assistant
+2024-	Visiting researcher at Donders Institute for Brain, Cognition and Behaviour, Netherland
 
   
-Skills
+SKILLS
 ======
-* **EEG (preferred)**, fMRI
-* C, MATLAB, **Python**, **R**
-
-* National Senior Psychological Counsellor (Level 2; NO. 1811000008210218)
-*	Foreign-Oriented Secretary (Intermediate/Level 4; NO. 0604000002401158)
+* Experiment & Data Analysis
+  * **EEG (preferred)**, fMRI
+  * C, MATLAB, **Python**, **R**
+* Certificates
+  * National Senior Psychological Counsellor (Level 2; NO. 1811000008210218)
+  * Foreign-Oriented Secretary (Intermediate/Level 4; NO. 0604000002401158)
