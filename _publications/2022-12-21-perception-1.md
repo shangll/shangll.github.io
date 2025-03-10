@@ -1,7 +1,7 @@
 ---
 title: "2022 Perception"
 collection: publications
-category: manuscript
+category: manuscripts
 permalink: /publication/2022-12-21-perception-1
 date: 2022-12-21
 ---
