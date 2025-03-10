@@ -10,12 +10,9 @@ redirect_from:
 {% include base_path %}
 
 
-<p style="line-height: 1.15;">2019-2024	Ph.D. in Cognitive Neuroscience
-
-Donders Institute in Nijmegen, The Netherlands
-
-Supervisor: Marius Peelen - [Visual Cognitive Neuroscience](https://www.ru.nl/en/departments/donders-centre-for-cognition/visual-cognitive-neuroscience)
-
+<p style="line-height: 1.25;">2019-2024	Ph.D. in Cognitive Neuroscience<br/>
+Donders Institute in Nijmegen, The Netherlands<br/>
+Supervisor: Marius Peelen - [Visual Cognitive Neuroscience](https://www.ru.nl/en/departments/donders-centre-for-cognition/visual-cognitive-neuroscience)<br/>
 Thesis: How we see what is new: The role of attention and object attributes in visual memory search</p>
 
 
