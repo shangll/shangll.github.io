@@ -7,5 +7,3 @@ venue: "National Cheng Kung University"
 date: 2015-03-01
 location: "Tainan, Taiwan, China"
 ---
-
-TA
