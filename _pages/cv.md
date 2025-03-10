@@ -10,12 +10,12 @@ redirect_from:
 {% include base_path %}
 
 
-Ph.D. in Cognitive Neuroscience, Donders Institute for Brain, Cognition and Behaviour in Nijmegen, The Netherlands
+Ph.D. in Cognitive Neuroscience, Donders Institute for Brain, Cognition and Behaviour in Nijmegen, Netherlands
 
 
 Current Work
 ======
-2024-	Visiting researcher at Donders Institute for Brain, Cognition and Behaviour, Netherland
+2024-	Visiting researcher at Donders Institute for Brain, Cognition and Behaviour, Netherlands
 
   
 Skills
