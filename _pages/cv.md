@@ -12,6 +12,8 @@ redirect_from:
 
 Ph.D. in Cognitive Neuroscience, Donders Institute for Brain, Cognition and Behaviour in Nijmegen, Netherlands
 
+MS in Psychology, National Cheng Kung University in Taiwan, China
+
 
 Current Work
 ======
