@@ -20,7 +20,3 @@ Program: How we see what is new: The role of attention and object attributes in 
 Supervisor: Marius Peelen - [Visual Cognitive Neuroscience](https://www.ru.nl/en/departments/donders-centre-for-cognition/visual-cognitive-neuroscience)
 
 Institution: Donders Institute for Brain, Cognition, and Behaviour in Netherlands (Nijmegen)
-
-News
-======
-1. Pytorch笔记 W1D1: Making Tensors 更新
