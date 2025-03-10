@@ -15,7 +15,7 @@ Ph.D. in Cognitive Neuroscience, Donders Institute for Brain, Cognition and Beha
 
 Current Work
 ======
-Visiting researcher at Donders Institute for Brain, Cognition and Behaviour, Netherlands
+Visiting researcher at Donders Institute for Brain, Cognition and Behaviour in Nijmegen, Netherlands
 
   
 Skills
