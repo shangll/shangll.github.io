@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "[CV]()"
+title: "[CV](https://github.com/shangll/shangll.github.io/blob/master/files/CV%20-%20Linlin%20Shang.pdf)"
 permalink: /cv/
 author_profile: true
 redirect_from:
