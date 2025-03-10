@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+EDUCATION
 ======
 2019-2024	Ph.D. in Cognitive Neuroscience
 
