@@ -11,54 +11,36 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+2019-2024	Ph.D. in Cognitive Neuroscience
+
+Donders Institute in Nijmegen, The Netherlands
+
+Supervisor: Marius Peelen - [Visual Cognitive Neuroscience](https://www.ru.nl/en/departments/donders-centre-for-cognition/visual-cognitive-neuroscience)
+
+Thesis: How we see what is new: The role of attention and object attributes in visual memory search
+
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+2024-	Visiting researcher
+	Donders Institute for Brain, Cognition and Behaviour, Netherland
+ 
+2017-2019	Research assistant
+	State Key Laboratory of Cognitive Neuroscience and Learning, Beijing Normal University, China
+ 
+2016-2017	Research assistant
+	Institute of Science and Technology for Brain-inspired Intelligence, Fudan University, China
+ 
+2016-2016	Research assistant 
+	State Key Laboratory of Cognitive Neuroscience and Learning, Beijing Normal University, China
+ 
+2015-2015	Teaching assistant
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **EEG (preferred)**, fMRI
+* C, MATLAB, **Python**, **R**
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* National Senior Psychological Counsellor (Level 2; NO. 1811000008210218)
+*	Foreign-Oriented Secretary (Intermediate/Level 4; NO. 0604000002401158)
