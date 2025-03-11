@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Education"
+title: "Resume"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -10,14 +10,14 @@ redirect_from:
 {% include base_path %}
 
 
-Ph.D. in Cognitive Neuroscience, Donders Institute for Brain, Cognition and Behaviour in Nijmegen, Netherlands
-
-MS in Psychology, National Cheng Kung University in Taiwan, China
-
+Background
+======
+Education
+* Ph.D. in Cognitive Neuroscience, Donders Institute for Brain, Cognition and Behaviour in Nijmegen, Netherlands
+* MS in Psychology, National Cheng Kung University in Taiwan, China
 
 Current Work
-======
-Visiting researcher at Donders Institute for Brain, Cognition and Behaviour in Nijmegen, Netherlands
+* Visiting researcher at Donders Institute for Brain, Cognition and Behaviour in Nijmegen, Netherlands
 
   
 Skills
