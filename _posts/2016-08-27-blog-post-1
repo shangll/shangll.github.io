@@ -1,0 +1,27 @@
+---
+title: 'Python基础教程'
+date: 2024-08-13
+permalink: /posts/2016/08/blog-post-1/
+tags:
+  - python
+---
+
+参考Python for Everyone这本书，基本上为该书中文直翻。
+
+[CH.1 - INTRO (可跳过)](https://shangll.notion.site/CH-1-INTRO-c1ed960045ce4f868619d96d12b2101a?pvs=4)
+
+[CH.2 - NUMBERS & STRINGS](https://shangll.notion.site/CH-2-NUMBERS-STRINGS-cb586013495943a68e5dc870f84bb63d?pvs=4)
+
+[CH.3 - DECISION](https://shangll.notion.site/CH-3-DECISION-8a7794a6c2e24824bef18f6b21446ef2?pvs=4)
+
+[CH.4 - LOOPS](https://shangll.notion.site/CH-4-LOOPS-d945fbcfbeaa43d9a73bf59a8636cea0?pvs=4)
+
+[CH.5 - FUNCTIONS](https://shangll.notion.site/CH-5-FUNCTIONS-cc481748b4b1499cb8608601529b71bc?pvs=4)
+
+[CH.6 - LISTS](https://shangll.notion.site/CH-6-LISTS-b81ca65d4a434cff9f62b716ce5c92ad?pvs=4)
+
+[CH.7 - FILES](https://shangll.notion.site/CH-7-FILES-36618c5728364f8b8164a087ca78a068?pvs=4)
+
+[CH.8 - SET AND DICTIONARIES](https://shangll.notion.site/CH-8-SET-AND-DICTIONARIES-fa99ddf7670e43a0bd2b66932124ead1?pvs=4)
+
+[CH.9 - CLASS](https://shangll.notion.site/CH-9-CLASS-58a320dfc896486eb2ec32aadbbe2f1c?pvs=4)
