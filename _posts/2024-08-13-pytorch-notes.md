@@ -1,7 +1,7 @@
 ---
 title: 'Pytorch笔记 W1D1 Making Tensors'
 date: 2024-08-13
-permalink: /posts/2024/08/note/
+permalink: /posts/2024/08/pytorch-notes/
 tags:
   - python
   - pytorch
