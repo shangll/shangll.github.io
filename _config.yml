@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "SHANG, LINLIN | 尚 林霖"
+title                    : "SHANG, LINLIN"
 title_separator          : "-"
 name                     : &name "Linlin Shang"
 description              : &description "personal description"
