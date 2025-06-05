@@ -9,3 +9,10 @@ tags:
   - ML
 ---
 
+本文基于Bae 2018年J. Neurosci上的这篇Dissociable Decoding of Spatial Attention and Working Memory from EEG Oscillations and Sustained Potentials，建议阅读原文。
+
+**Decoding在做什么、可以用来做什么？**
+
+人们在看不同类别图片的时候，大脑是有不同的反应模式的。如果大脑encode了这种刺激，两个种类的刺激的活动应该是不一样的。如果有一个很好的classifier，那么这两种不一样的活动就会被分类出来（所以这里我们可以看出来，decoding本质上就是在做representations）。比如我1个session 8个run，就可以training前7个run去test最后1个run。Decoding似乎fMRI用的比较早（不确定，印象中是这样），那时候还叫MVPA。这俩本质上是一个东西。那个V就是voxel的意思，到EEG中就变成了channel。如果EEG不叫decoding，那就得叫MCPA。仅此而已。
+
+Interim Summary：decoding的核心原理就是我有一堆data。这堆data是二元（或者多元也行）可分的。我可以从中分出一大部分，用一个很好的classifier去training data怎么去分类，然后用trained data去test left data。就是这么简单。
