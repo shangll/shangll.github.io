@@ -7,6 +7,7 @@ tags:
   - pytorch
   - DNN
   - CNN
+  - ANN
 ---
 
 [W1D1: Making Tensors](https://shangll.notion.site/W1D1-Making-Tensors-fd6c7365b7154019826166e212351882)
