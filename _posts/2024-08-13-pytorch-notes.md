@@ -1,5 +1,5 @@
 ---
-title: 'Pytorch笔记 DL (constantly updated)'
+title: 'Pytorch笔记 DL (随缘更新)'
 date: 2024-08-13
 permalink: /posts/2024/08/pytorch-notes/
 tags:
