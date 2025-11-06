@@ -2,7 +2,7 @@
 title: "Conference Papers"
 collection: publications
 category: conferences
-permalink: /publication/papers/c_papers
+permalink: /publication/c_papers
 excerpt: ''
 date: 2022-12-21
 venue: ''
@@ -10,4 +10,4 @@ venue: ''
 
 **2022**
 
-[ECVP: Perception](/publications/2022-12-21-perception-1)
+[ECVP: Perception](/publications/papers/2022-12-21-perception-1)
