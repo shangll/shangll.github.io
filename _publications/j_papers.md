@@ -10,7 +10,7 @@ venue: ''
 
 **2025**
 
-[J Mem Lang](/publications/2025-04-15-JML-1)
+[J Mem Lang](/publications/2025-11-04-JML-1)
 
 **2024**
 
