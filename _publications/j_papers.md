@@ -8,4 +8,4 @@ date: 2025-11-05
 venue: ''
 ---
 
-[2021-2025](/publications/pub_21-25)
+[2021-2025](/publication/pub_21-25)
