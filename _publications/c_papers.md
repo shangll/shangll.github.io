@@ -2,7 +2,7 @@
 title: "Conference Papers"
 collection: publications
 category: conferences
-permalink: /publication/c_papers
+permalink: /publication/papers/c_papers
 excerpt: ''
 date: 2022-12-21
 venue: ''
