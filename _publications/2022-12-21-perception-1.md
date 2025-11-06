@@ -1,5 +1,5 @@
 ---
-title: "ECVP: Perception"
+title: "Perception"
 permalink: /publications/2022-12-21-perception-1
 ---
 
