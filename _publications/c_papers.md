@@ -10,4 +10,4 @@ venue: ''
 
 **2022**
 
-[ECVP: Perception](/publications/2022-12-21-perception-1)
+[ECVP: Perception](/publication/2022-12-21-perception-1)
