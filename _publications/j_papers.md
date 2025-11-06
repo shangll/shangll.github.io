@@ -10,12 +10,12 @@ venue: ''
 
 **2025**
 
-[J Mem Lang](/_papers/2025-11-04-JML-1.md)
+[J Mem Lang](/publications/2025-11-04-JML-1)
 
 **2024**
 
-[eNeuro](/_papers/2024-02-08-eNeuro-1.md)
+[eNeuro](/publications/2024-02-08-eNeuro-1)
 
 **2021**
 
-[JEP: General](/_papers/2021-09-09-JEPG-1.md)
+[JEP: General](/publications/2021-09-09-JEPG-1)
