@@ -10,4 +10,4 @@ venue: ''
 
 **2022**
 
-[pept](/publications/2022-12-21-perception-1.md)
+[pept](/publications/2022-12-21-perception-1)
