@@ -8,4 +8,18 @@ date: 2025-11-05
 venue: ''
 ---
 
-[JEP:G](/publication/2021-09-09-JEPG-1)
+**2025**
+
+[JML](/_publications/2025-04-15-JML-1.md)
+
+**2024**
+
+[eneuro](/_publications/2024-02-08-eNeuro-1.md)
+
+**2022**
+
+[pept](/_publications/2022-12-21-perception-1.md)
+
+**2021**
+
+[JEP:G](/publication/2021-09-09-JEPG-1.md)
