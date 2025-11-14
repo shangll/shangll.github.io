@@ -4,3 +4,4 @@ excerpt: "长期招聘行为实验受试者<br/><img src='/images/recruit_subj.p
 collection: lab
 ---
 
+长期招聘行为实验受试者
