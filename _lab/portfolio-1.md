@@ -1,6 +1,6 @@
 ---
 title: "正在施工ing..."
-excerpt: "<br/><img src='/images/500x300.png'>"
+excerpt: "长期招聘行为实验受试者<br/><img src='/images/recruit_subj.png'>"
 collection: lab
 ---
 
