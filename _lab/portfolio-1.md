@@ -1,5 +1,5 @@
 ---
-title: "正式实验招募被试"
+title: "正式实验招募被试（点击查看具体内容）"
 excerpt: "招聘行为实验被试20名<br/><img src='/images/recruit_subj.png'>"
 collection: lab
 ---
