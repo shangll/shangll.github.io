@@ -5,3 +5,5 @@ collection: lab
 ---
 
 行为实验，需连续三天，每天约1.5小时，共计可得约135元（单价：30元/时）。
+
+[被试自助预约系统](https://exp-booking.github.io/simple-booking/)
