@@ -10,6 +10,8 @@ location: "Shenyang, China"
 
 ### 辽宁大学2026年春，校选，心理学与生活（代课）
 
+---
+
 第二章 感知觉
 
 Chapter 2 Sensation & perception [2026-03-25]
