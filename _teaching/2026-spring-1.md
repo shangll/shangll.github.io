@@ -8,6 +8,6 @@ date: 2026-03-25
 location: "Shenyang, China"
 ---
 
-Chapter 2 Sensation & perception 2026-03-25
+Chapter 2 Sensation & perception [2026-03-25]
 
-Chapter 3 Consciousness & dream 2026-04-01
+Chapter 3 Consciousness & dream [2026-04-01]
