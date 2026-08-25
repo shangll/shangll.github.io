@@ -190,6 +190,9 @@ classes: lab-page
     gap: 16px;}
 
   .link-card {
+    display: flex;
+    flex-direction: column;
+    min-height: 170px;
     background: #ffffff;
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -215,6 +218,7 @@ classes: lab-page
     line-height: 1.6;}
 
   .link-label {
+    align-self: flex-start;
     display: inline-block;
     margin-bottom: 8px;
     padding: 3px 9px;
@@ -226,10 +230,13 @@ classes: lab-page
 
   .link-arrow {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: auto;
+    padding-top: 14px;
     color: #1a73e8;
     font-size: 14px;
-    font-weight: 600;}
+    font-weight: 600;
+    text-decoration: none !important;
+    align-self: flex-start;}
 
   @media (max-width: 600px) {
     .links-grid {
