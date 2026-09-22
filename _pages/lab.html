@@ -92,7 +92,7 @@ classes: lab-page
     text-decoration: underline;
   }
 
-  /* News link only */
+  /* News link */
   .news-list a {
     color: #4a4a4a !important;
     text-decoration: none !important;
@@ -238,18 +238,20 @@ classes: lab-page
     background: #f7f7f7;
     border: none;
     box-shadow: none;
-    padding: 20px 26px 16px;
+    padding: 18px 26px 14px;
   }
 
   .links-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: auto auto;
     column-gap: 30px;
-    row-gap: 12px;
+    row-gap: 10px;
     align-items: stretch;
   }
 
-  .section-links h3 {
+  /* Row 1, Column 1: section title */
+  .links-grid h3 {
     grid-column: 1;
     grid-row: 1;
 
@@ -257,15 +259,45 @@ classes: lab-page
     justify-self: start;
 
     margin: 0;
-    padding: 0 0 7px;
+    padding: 0 0 5px;
 
-    border-left: none;
+    border: none;
     border-bottom: 1px solid #e5d8c4;
 
+    color: #8a5200;
     font-size: 15px;
     font-weight: 600;
     line-height: 1.4;
-    color: #8a5200;
+  }
+
+  /* Row 1, Column 2 */
+  .links-grid .link-item:nth-of-type(1) {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  /* Row 1, Column 3 */
+  .links-grid .link-item:nth-of-type(2) {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  /* Row 2, Column 1 */
+  .links-grid .link-item:nth-of-type(3) {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  /* Row 2, Column 2 */
+  .links-grid .link-item:nth-of-type(4) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  /* Row 2, Column 3 */
+  .links-grid .link-item:nth-of-type(5) {
+    grid-column: 3;
+    grid-row: 2;
   }
 
   .link-item {
@@ -274,7 +306,7 @@ classes: lab-page
     width: 100%;
     min-width: 0;
     margin: 0;
-    padding: 8px 0 10px;
+    padding: 6px 0 9px;
     border-bottom: 1px solid #e5e5e5;
   }
 
@@ -334,11 +366,19 @@ classes: lab-page
   @media (max-width: 800px) {
     .links-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
-      column-gap: 24px;
     }
 
-    .section-links h3 {
-      grid-column: 1;
+    .links-grid h3 {
+      grid-column: auto;
+      grid-row: auto;
+    }
+
+    .links-grid .link-item:nth-of-type(1),
+    .links-grid .link-item:nth-of-type(2),
+    .links-grid .link-item:nth-of-type(3),
+    .links-grid .link-item:nth-of-type(4),
+    .links-grid .link-item:nth-of-type(5) {
+      grid-column: auto;
       grid-row: auto;
     }
   }
@@ -346,14 +386,14 @@ classes: lab-page
   @media (max-width: 600px) {
     .links-grid {
       grid-template-columns: 1fr;
+      row-gap: 8px;
     }
 
     .section-links {
-      padding: 18px 20px 14px;
+      padding: 16px 20px 12px;
     }
   }
 </style>
-
 
 <div class="lab-title-block">
   <img src="../images/vrc_logo.png" alt="VRC Lab logo" class="lab-title-logo">
@@ -407,62 +447,69 @@ classes: lab-page
         </div>
       </div>
     </section>
-  
-    <section class="section section-links">
-      <h3>Related Links · 相关链接</h3>
-    
-      <div class="links-grid">
-    
-        <div class="link-item">
-          <span class="link-label">Affiliated Institutions</span>
-          <div class="link-title-row">
-            <a class="link-title" href="https://www.lnu.edu.cn/" target="_blank" rel="noopener noreferrer">
-              Liaoning University · 辽宁大学
-            </a>
-            <a class="link-arrow" href="https://www.lnu.edu.cn/" target="_blank" rel="noopener noreferrer">↗</a>
-            
-            <a class="link-title" href="https://xlcs.lnu.edu.cn/" target="_blank" rel="noopener noreferrer">
-              心理测试与行为分析实验室
-            </a>
-            <a class="link-arrow" href="https://xlcs.lnu.edu.cn/" target="_blank" rel="noopener noreferrer">↗</a>
-            <p>Laboratory of Psychological Testing and Behavioral Analysis</p>
-          </div>
-    
-        <div class="link-item">
-          <span class="link-label">Official Profile</span>
-          <div class="link-title-row">
-            <a class="link-title" href="https://xlcs.lnu.edu.cn/info/1024/1416.htm" target="_blank" rel="noopener noreferrer">
-              My Faculty Profile · 个人主页
-            </a>
-            <a class="link-arrow" href="https://xlcs.lnu.edu.cn/info/1024/1416.htm" target="_blank" rel="noopener noreferrer">↗</a>
-          </div>
-          <p>Visual Representation &amp; Computation Lab</p>
-        </div>
-    
-        <div class="link-item">
-          <span class="link-label">Collaborating Lab</span>
-          <div class="link-title-row">
-            <a class="link-title" href="https://vcmlab.psychology.ncku.edu.tw/" target="_blank" rel="noopener noreferrer">
-              Prof. dr. Cheng-Ta Yang · 楊政達
-            </a>
-            <a class="link-arrow" href="https://vcmlab.psychology.ncku.edu.tw/" target="_blank" rel="noopener noreferrer">↗</a>
-          </div>
-          <p>Department of Psychology, National Cheng Kung University.</p>
-        </div>
-    
-        <div class="link-item">
-          <span class="link-label">Collaborating Lab</span>
-          <div class="link-title-row">
-            <a class="link-title" href="https://sites.google.com/view/lu-chun-yeh" target="_blank" rel="noopener noreferrer">
-              Dr. Lu-Chun Yeh · 葉律君
-            </a>
-            <a class="link-arrow" href="https://sites.google.com/view/lu-chun-yeh" target="_blank" rel="noopener noreferrer">↗</a>
-          </div>
-          <p>Department of Mathematics and Computer Science, Physics, Geography, Justus-Liebig Universität Giessen.</p>
-        </div>
-    
+ 
+  <section class="section section-links">
+  <div class="links-grid">
+
+    <h3>Related Links · 相关链接</h3>
+
+    <div class="link-item">
+      <span class="link-label">Host University</span>
+      <div class="link-title-row">
+        <a class="link-title" href="https://www.lnu.edu.cn/" target="_blank" rel="noopener noreferrer">
+          Liaoning University · 辽宁大学
+        </a>
+        <a class="link-arrow" href="https://www.lnu.edu.cn/" target="_blank" rel="noopener noreferrer">↗</a>
       </div>
-  </section>
+      <p>Liaoning University</p>
+    </div>
+
+    <div class="link-item">
+      <span class="link-label">Affiliated Institution</span>
+      <div class="link-title-row">
+        <a class="link-title" href="https://xlcs.lnu.edu.cn/" target="_blank" rel="noopener noreferrer">
+          心理测试与行为分析实验室
+        </a>
+        <a class="link-arrow" href="https://xlcs.lnu.edu.cn/" target="_blank" rel="noopener noreferrer">↗</a>
+      </div>
+      <p>Laboratory of Psychological Testing and Behavioral Analysis</p>
+    </div>
+
+    <div class="link-item">
+      <span class="link-label">Official Profile</span>
+      <div class="link-title-row">
+        <a class="link-title" href="https://xlcs.lnu.edu.cn/info/1024/1416.htm" target="_blank" rel="noopener noreferrer">
+          My Faculty Profile · 个人主页
+        </a>
+        <a class="link-arrow" href="https://xlcs.lnu.edu.cn/info/1024/1416.htm" target="_blank" rel="noopener noreferrer">↗</a>
+      </div>
+      <p>Visual Representation &amp; Computation Lab, The University of Tokyo.</p>
+    </div>
+
+    <div class="link-item">
+      <span class="link-label">Collaborating Lab</span>
+      <div class="link-title-row">
+        <a class="link-title" href="https://vcmlab.psychology.ncku.edu.tw/" target="_blank" rel="noopener noreferrer">
+          Prof. dr. Cheng-Ta Yang · 楊政達
+        </a>
+        <a class="link-arrow" href="https://vcmlab.psychology.ncku.edu.tw/" target="_blank" rel="noopener noreferrer">↗</a>
+      </div>
+      <p>Department of Psychology, National Cheng Kung University.</p>
+    </div>
+
+    <div class="link-item">
+      <span class="link-label">Collaborating Lab</span>
+      <div class="link-title-row">
+        <a class="link-title" href="https://sites.google.com/view/lu-chun-yeh" target="_blank" rel="noopener noreferrer">
+          Dr. Lu-Chun Yeh · 葉律君
+        </a>
+        <a class="link-arrow" href="https://sites.google.com/view/lu-chun-yeh" target="_blank" rel="noopener noreferrer">↗</a>
+      </div>
+      <p>Department of Mathematics and Computer Science, Physics, Geography, Justus-Liebig Universität Giessen.</p>
+    </div>
+
+  </div>
+</section>
   
 </div>
 
