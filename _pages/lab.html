@@ -226,93 +226,88 @@ classes: lab-page
     background: #f7f7f7;
     border: 1px solid #e6e6e6;
   }
-
+  
   .section-links h3 {
     border-left: none;
     padding-left: 0;
   }
-
-  .links-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 16px;
+  
+  .links-columns {
+    column-count: 3;
+    column-gap: 30px;
   }
-
-  .link-card {
-    display: flex;
-    flex-direction: column;
-    height: 170px;
-    padding: 16px;
-    background: rgba(255,255,255,0.72);
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    color: #333;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
-
-  .link-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-  }
-
-  .link-label {
-    align-self: flex-start;
+  
+  .link-item {
     display: inline-block;
-    margin-bottom: 8px;
-    padding: 3px 9px;
-    border-radius: 999px;
-    background: rgba(255,179,0,0.18);
-    color: #8a5200;
-    font-size: 12px;
-    font-weight: 600;
+    width: 100%;
+    margin: 0 0 20px;
+    padding: 0 0 15px;
+    border-bottom: 1px solid #e5e5e5;
+    break-inside: avoid;
+    page-break-inside: avoid;
   }
-
+  
   .link-title-row {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
-    gap: 16px;
-    min-width: 0;
+    gap: 12px;
   }
-
-  .link-title {
-    min-width: 0;
-    color: #333 !important;
-    font-size: 18px;
+  
+  .link-label {
+    display: block;
+    margin: 0 0 4px;
+    color: #999;
+    font-size: 11px;
     font-weight: 600;
-    line-height: 1.4;
+  }
+  
+  .link-title {
+    display: block;
+    color: #333 !important;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.45;
     text-decoration: none !important;
   }
-
+  
   .link-title:hover {
     color: #1a73e8 !important;
     text-decoration: none !important;
   }
-
-  .link-card p {
-    margin: 6px 0 0;
+  
+  .link-item p {
+    margin: 4px 0 0;
     color: #666;
-    font-size: 14px;
-    line-height: 1.6;
+    font-size: 13px;
+    line-height: 1.55;
   }
-
+  
   .link-arrow {
     flex: 0 0 auto;
+    margin-top: 20px;
     color: #1a73e8 !important;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
     line-height: 1;
+    font-weight: 600;
     text-decoration: none !important;
   }
-
+  
   .link-arrow:hover {
     color: #1a73e8 !important;
     text-decoration: none !important;
   }
-
+  
+  @media (max-width: 800px) {
+    .links-columns {
+      column-count: 2;
+      column-gap: 24px;
+    }
+  }
+  
   @media (max-width: 600px) {
-    .links-grid {
-      grid-template-columns: 1fr;
+    .links-columns {
+      column-count: 1;
     }
   }
 </style>
@@ -372,67 +367,77 @@ classes: lab-page
     </section>
   
   <section class="section section-links">
-  <h3>Related Links · 相关链接</h3>
-
-  <div class="links-grid">
-
-    <div class="link-card">
-      <span class="link-label">Host University</span>
-      <div class="link-title-row">
-        <a class="link-title" href="https://www.lnu.edu.cn/" target="_blank" rel="noopener noreferrer">
-          Liaoning University · 辽宁大学
-        </a>
-        <a class="link-arrow" href="https://www.lnu.edu.cn/" target="_blank" rel="noopener noreferrer">↗</a>
+    <h3>Related Links · 相关链接</h3>
+  
+    <div class="links-columns">
+  
+      <div class="link-item">
+        <div class="link-title-row">
+          <div>
+            <span class="link-label">Host University</span>
+            <a class="link-title" href="https://www.lnu.edu.cn/" target="_blank" rel="noopener noreferrer">
+              Liaoning University · 辽宁大学
+            </a>
+          </div>
+          <a class="link-arrow" href="https://www.lnu.edu.cn/" target="_blank" rel="noopener noreferrer">↗</a>
+        </div>
+        <p>Liaoning University</p>
       </div>
-      <p>Liaoning University</p>
-    </div>
-
-    <div class="link-card">
-      <span class="link-label">Affiliated Institution</span>
-      <div class="link-title-row">
-        <a class="link-title" href="https://xlcs.lnu.edu.cn/" target="_blank" rel="noopener noreferrer">
-          心理测试与行为分析实验室
-        </a>
-        <a class="link-arrow" href="https://www.u-tokyo.ac.jp/ja/" target="_blank" rel="noopener noreferrer">↗</a>
+  
+      <div class="link-item">
+        <div class="link-title-row">
+          <div>
+            <span class="link-label">Affiliated Institution</span>
+            <a class="link-title" href="https://xlcs.lnu.edu.cn/" target="_blank" rel="noopener noreferrer">
+              心理测试与行为分析实验室
+            </a>
+          </div>
+          <a class="link-arrow" href="https://xlcs.lnu.edu.cn/" target="_blank" rel="noopener noreferrer">↗</a>
+        </div>
+        <p>Laboratory of Psychological Testing and Behavioral Analysis</p>
       </div>
-      <p>Laboratory of Psychological Testing and Behavioral Analysis</p>
-    </div>
-
-    <div class="link-card">
-      <span class="link-label">Official Profile</span>
-      <div class="link-title-row">
-        <a class="link-title" href="https://xlcs.lnu.edu.cn/info/1024/1416.ht" target="_blank" rel="noopener noreferrer">
-          My Faculty Profile · 个人主页
-        </a>
-        <a class="link-arrow" href="https://xlcs.lnu.edu.cn/info/1024/1416.ht" target="_blank" rel="noopener noreferrer">↗</a>
+  
+      <div class="link-item">
+        <div class="link-title-row">
+          <div>
+            <span class="link-label">Official Profile</span>
+            <a class="link-title" href="https://xlcs.lnu.edu.cn/info/1024/1416.ht" target="_blank" rel="noopener noreferrer">
+              My Faculty Profile · 个人主页
+            </a>
+          </div>
+          <a class="link-arrow" href="https://xlcs.lnu.edu.cn/info/1024/1416.ht" target="_blank" rel="noopener noreferrer">↗</a>
+        </div>
+        <p>Visual Representation &amp; Computation Lab</p>
       </div>
-      <p>Visual Representation &amp; Computation Lab</p>
-    </div>
-
-    <div class="link-card">
-      <span class="link-label">Collaborating Lab</span>
-      <div class="link-title-row">
-        <a class="link-title" href="https://vcmlab.psychology.ncku.edu.tw/" target="_blank" rel="noopener noreferrer">
-          Prof. dr. Cheng-Ta Yang · 楊政達
-        </a>
-        <a class="link-arrow" href="https://vcmlab.psychology.ncku.edu.tw/" target="_blank" rel="noopener noreferrer">↗</a>
+  
+      <div class="link-item">
+        <div class="link-title-row">
+          <div>
+            <span class="link-label">Collaborating Lab</span>
+            <a class="link-title" href="https://vcmlab.psychology.ncku.edu.tw/" target="_blank" rel="noopener noreferrer">
+              Prof. dr. Cheng-Ta Yang · 楊政達
+            </a>
+          </div>
+          <a class="link-arrow" href="https://vcmlab.psychology.ncku.edu.tw/" target="_blank" rel="noopener noreferrer">↗</a>
+        </div>
+        <p>Department of Psychology, National Cheng Kung University.</p>
       </div>
-      <p>Department of Psychology, National Cheng Kung University.</p>
-    </div>
-
-    <div class="link-card">
-      <span class="link-label">Collaborating Lab</span>
-      <div class="link-title-row">
-        <a class="link-title" href="https://sites.google.com/view/lu-chun-yeh" target="_blank" rel="noopener noreferrer">
-          Dr. Lu-Chun Yeh · 葉律君
-        </a>
-        <a class="link-arrow" href="https://sites.google.com/view/lu-chun-yeh" target="_blank" rel="noopener noreferrer">↗</a>
+  
+      <div class="link-item">
+        <div class="link-title-row">
+          <div>
+            <span class="link-label">Collaborating Lab</span>
+            <a class="link-title" href="https://sites.google.com/view/lu-chun-yeh" target="_blank" rel="noopener noreferrer">
+              Dr. Lu-Chun Yeh · 葉律君
+            </a>
+          </div>
+          <a class="link-arrow" href="https://sites.google.com/view/lu-chun-yeh" target="_blank" rel="noopener noreferrer">↗</a>
+        </div>
+        <p>Department of Mathematics and Computer Science, Physics, Geography, Justus-Liebig Universität Giessen.</p>
       </div>
-      <p>Department of Mathematics and Computer Science, Physics, Geography, Justus-Liebig Universität Giessen.</p>
+  
     </div>
-
-  </div>
-</section>
+  </section>
   
 </div>
 
