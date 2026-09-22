@@ -243,6 +243,75 @@ classes: lab-page
     text-decoration: none !important;
     align-self: flex-start;}
 
+  .related-links {
+  margin-top: 18px;
+  padding: 26px 0 10px;
+  border-top: 1px solid #e5e5e5;
+  }
+  
+  .related-links h3 {
+    margin: 0 0 14px;
+    padding-left: 12px;
+    border-left: 4px solid #ffb300;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .related-links-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 40px;
+  }
+  
+  .related-links-list a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 14px 4px;
+    border-bottom: 1px solid #ededed;
+    color: #333;
+    text-decoration: none !important;
+    transition: color 0.2s ease;
+  }
+  
+  .related-links-list a:hover {
+    color: #1a73e8;
+    text-decoration: none !important;
+  }
+  
+  .related-links-list strong {
+    display: block;
+    margin-bottom: 2px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .related-links-list span {
+    display: block;
+    color: #888;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  
+  .related-links-list .related-arrow {
+    flex: 0 0 auto;
+    display: block;
+    color: #aaa;
+    font-size: 17px;
+  }
+  
+  .related-links-list a:hover .related-arrow {
+    color: #1a73e8;
+  }
+  
+  @media (max-width: 600px) {
+    .related-links-list {
+      grid-template-columns: 1fr;
+    }
+  }
+
   @media (max-width: 600px) {
     .links-grid {
       grid-template-columns: 1fr;}
@@ -316,6 +385,47 @@ classes: lab-page
       </div>
     </section>
   
+    <section class="related-links">
+      <h3>Related Links · 相关链接</h3>
+    
+      <div class="related-links-list">
+    
+        <a href="YOUR-LNU-PROFILE-URL" target="_blank" rel="noopener">
+          <div>
+            <strong>My Faculty Profile · 个人主页</strong>
+            <span>Liaoning University · 辽宁大学</span>
+          </div>
+          <span class="related-arrow">↗</span>
+        </a>
+    
+        <a href="YOUR-UTOKYO-URL" target="_blank" rel="noopener">
+          <div>
+            <strong>University of Tokyo · 东京大学</strong>
+            <span>The University of Tokyo</span>
+          </div>
+          <span class="related-arrow">↗</span>
+        </a>
+    
+        <a href="YOUR-LAB-URL" target="_blank" rel="noopener">
+          <div>
+            <strong>PI / Lab Page · 课题组主页</strong>
+            <span>Visual Representation &amp; Computation Lab</span>
+          </div>
+          <span class="related-arrow">↗</span>
+        </a>
+    
+        <a href="YOUR-COLLABORATOR-URL" target="_blank" rel="noopener">
+          <div>
+            <strong>Collaborators · 合作单位</strong>
+            <span>Research collaborators and related institutions</span>
+          </div>
+          <span class="related-arrow">↗</span>
+        </a>
+    
+      </div>
+    </section>
+  
+    <!---
     <section class="section section-links">
       <h3>Related Links · 相关链接</h3>
       <div class="links-grid">
@@ -348,6 +458,7 @@ classes: lab-page
 
     </div>
   </section>
+  --->
   
   </div>
 
