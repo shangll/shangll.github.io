@@ -92,7 +92,7 @@ classes: lab-page
     text-decoration: underline;
   }
 
-  /* Only the News link uses the Related Links colour */
+  /* News link */
   .news-list a {
     color: #4a4a4a !important;
     text-decoration: none !important;
@@ -237,26 +237,25 @@ classes: lab-page
   .section-links {
     background: #f2f2f2;
     border: none;
-    box-shadow: none;
-    padding: 28px 26px 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    padding: 28px 48px 20px;
   }
 
-  /* Same title style as News / About Us / Team */
   .section-links h3 {
     margin: 0 0 18px;
     padding-left: 12px;
     border-left: 4px solid #ff8f00;
     font-size: 22px;
     font-weight: 600;
+    line-height: 1.4;
     color: #333;
   }
 
-  /* Five links only: three columns, arranged by row */
   .links-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    column-gap: 30px;
-    row-gap: 14px;
+    column-gap: 22px;
+    row-gap: 12px;
     align-items: stretch;
   }
 
