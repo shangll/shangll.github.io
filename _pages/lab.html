@@ -238,7 +238,6 @@ classes: lab-page
     background: #f2f2f2;
     border: none;
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-    padding: 16px;
   }
 
   .section-links h3 {
@@ -321,22 +320,33 @@ classes: lab-page
     text-decoration: none !important;
   }
 
-  /* Remove all link focus / active outlines and browser tap highlights */
-  .lab-page a,
-  .lab-page a:link,
-  .lab-page a:visited,
-  .lab-page a:hover,
-  .lab-page a:active,
+  /*
+   * Remove focus rings / borders / tap highlights
+   * from links in the lab page and the Academic Pages navigation.
+   */
   .lab-page a:focus,
-  .lab-page a:focus-visible {
-    outline: none !important;
-    outline-style: none !important;
+  .lab-page a:focus-visible,
+  .lab-page a:active,
+  .masthead a:focus,
+  .masthead a:focus-visible,
+  .masthead a:active,
+  .masthead__menu-item a:focus,
+  .masthead__menu-item a:focus-visible,
+  .masthead__menu-item a:active,
+  .greedy-nav a:focus,
+  .greedy-nav a:focus-visible,
+  .greedy-nav a:active {
+    outline: 0 !important;
     outline-width: 0 !important;
+    outline-style: none !important;
+    border-color: transparent !important;
     box-shadow: none !important;
     -webkit-tap-highlight-color: transparent !important;
   }
 
-  .lab-page a::-moz-focus-inner {
+  .lab-page a::-moz-focus-inner,
+  .masthead a::-moz-focus-inner,
+  .greedy-nav a::-moz-focus-inner {
     border: 0 !important;
   }
 
