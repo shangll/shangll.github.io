@@ -84,6 +84,7 @@ classes: lab-page
     box-shadow: 0 6px 18px rgba(0,0,0,0.08);
   }
 
+  /* Other pages and general links remain unchanged */
   a {
     color: #1a73e8;
   }
@@ -92,7 +93,7 @@ classes: lab-page
     text-decoration: underline;
   }
 
-  /* News link */
+  /* News link only */
   .news-list a {
     color: #4a4a4a !important;
     text-decoration: none !important;
@@ -321,32 +322,31 @@ classes: lab-page
   }
 
   /*
-   * Remove focus rings / borders / tap highlights
-   * from links in the lab page and the Academic Pages navigation.
+   * Remove focus outlines ONLY inside the lab page.
+   * This does not affect other pages.
    */
   .lab-page a:focus,
   .lab-page a:focus-visible,
   .lab-page a:active,
-  .masthead a:focus,
-  .masthead a:focus-visible,
-  .masthead a:active,
-  .masthead__menu-item a:focus,
-  .masthead__menu-item a:focus-visible,
-  .masthead__menu-item a:active,
-  .greedy-nav a:focus,
-  .greedy-nav a:focus-visible,
-  .greedy-nav a:active {
+  .lab-page *:focus,
+  .lab-page *:focus-visible {
     outline: 0 !important;
     outline-width: 0 !important;
     outline-style: none !important;
-    border-color: transparent !important;
+    outline-color: transparent !important;
     box-shadow: none !important;
+  }
+
+  .lab-page a:focus,
+  .lab-page a:focus-visible,
+  .lab-page a:active {
+    border-color: transparent !important;
+    text-decoration: none !important;
+    background-image: none !important;
     -webkit-tap-highlight-color: transparent !important;
   }
 
-  .lab-page a::-moz-focus-inner,
-  .masthead a::-moz-focus-inner,
-  .greedy-nav a::-moz-focus-inner {
+  .lab-page a::-moz-focus-inner {
     border: 0 !important;
   }
 
@@ -367,6 +367,8 @@ classes: lab-page
     }
   }
 </style>
+
+
 
 <div class="lab-title-block">
   <img src="../images/vrc_logo.png" alt="VRC Lab logo" class="lab-title-logo">
