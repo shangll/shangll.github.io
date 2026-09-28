@@ -84,20 +84,20 @@ classes: lab-page
     box-shadow: 0 6px 18px rgba(0,0,0,0.08); 
   } 
  
-  /* General links inside Lab page only */
-  .lab-page a {
+  /* General links */
+  a {
     color: #1a73e8;
   }
   
-  .lab-page a:hover {
+  a:hover {
     text-decoration: underline;
   }
   
-  .lab-page a:visited,
-  .lab-page a:focus,
-  .lab-page a:focus-visible,
-  .lab-page a:active {
-    outline: none !important;
+  /* Remove focus/active frame from links */
+  a:focus,
+  a:focus-visible,
+  a:active {
+    outline: 0 !important;
     outline-style: none !important;
     outline-width: 0 !important;
     outline-color: transparent !important;
@@ -105,6 +105,7 @@ classes: lab-page
     box-shadow: none !important;
     background: transparent !important;
     background-image: none !important;
+    -webkit-tap-highlight-color: transparent !important;
   }
  
   /* News link */ 
