@@ -321,11 +321,23 @@ classes: lab-page
     text-decoration: none !important;
   }
 
-  /* Remove orange focus box after clicking links */
+  /* Remove all link focus / active outlines and browser tap highlights */
+  .lab-page a,
+  .lab-page a:link,
+  .lab-page a:visited,
+  .lab-page a:hover,
+  .lab-page a:active,
   .lab-page a:focus,
   .lab-page a:focus-visible {
     outline: none !important;
+    outline-style: none !important;
+    outline-width: 0 !important;
     box-shadow: none !important;
+    -webkit-tap-highlight-color: transparent !important;
+  }
+
+  .lab-page a::-moz-focus-inner {
+    border: 0 !important;
   }
 
   @media (max-width: 800px) {
