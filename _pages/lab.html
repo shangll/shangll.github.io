@@ -7,6 +7,27 @@ classes: lab-page
 ---
 
 <style>
+  /* ========================================
+     Lab page only
+     All selectors are scoped to .lab-page
+     ======================================== */
+
+  .lab-page {
+    box-sizing: border-box;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 20px 50px;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  .lab-page *,
+  .lab-page *::before,
+  .lab-page *::after {
+    box-sizing: border-box;
+  }
+
+  /* Hide the theme-generated page title */
   .lab-page .page__title,
   .lab-page h1.page__title,
   .lab-page .archive__title,
@@ -15,7 +36,8 @@ classes: lab-page
     display: none !important;
   }
 
-  .lab-title-block {
+  /* Lab title */
+  .lab-page .lab-title-block {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,242 +46,170 @@ classes: lab-page
     margin-bottom: 32px;
   }
 
-  .lab-title-logo {
+  .lab-page .lab-title-logo {
     width: 150px;
     height: auto;
     flex: 0 0 auto;
   }
 
-  .lab-title-text {
+  .lab-page .lab-title-text {
     flex: 1;
     text-align: right;
   }
 
-  .lab-title-text h1 {
+  .lab-page .lab-title-text h1 {
     margin: 0;
     font-size: 34px;
     line-height: 1.15;
   }
 
-  .lab-title-text p {
+  .lab-page .lab-title-text p {
     margin: 6px 0 0;
     color: #666;
     font-size: 18px;
   }
 
-  @media (max-width: 600px) {
-    .lab-title-block {
-      align-items: flex-start;
-      gap: 14px;
-    }
-
-    .lab-title-logo {
-      width: 64px;
-    }
-
-    .lab-title-text h1 {
-      font-size: 24px;
-    }
-
-    .lab-title-text p {
-      font-size: 15px;
-    }
-  }
-
-  .section h3 {
+  /* Section headings */
+  .lab-page .section h3 {
     margin: 0 0 14px;
     font-size: 22px;
     padding-left: 12px;
     border-left: 4px solid #ff8f00;
   }
 
-  .member-card,
-  .status-item {
-    transition: all 0.2s ease;
-  }
-
-  .member-card:hover,
-  .status-item:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-  }
-
-  /* General links */
-  a {
-    color: #1a73e8;
-  }
-
-  a:hover {
-    text-decoration: underline;
-  }
-
-  /* Remove visited / focus / active outlines globally */
-  a:visited,
-  a:focus,
-  a:focus-visible,
-  a:active {
-    outline: none !important;
-    outline-style: none !important;
-    outline-width: 0 !important;
-    outline-color: transparent !important;
-    box-shadow: none !important;
-  }
-
-  /* News link */
-  .news-list a {
-    color: #4a4a4a !important;
-    text-decoration: none !important;
-  }
-
-  .news-list a:visited,
-  .news-list a:hover,
-  .news-list a:focus,
-  .news-list a:focus-visible,
-  .news-list a:active {
-    color: #8a5200 !important;
-    text-decoration: none !important;
-    outline: none !important;
-    box-shadow: none !important;
-  }
-
-  * {
-    box-sizing: border-box;
-  }
-
-  body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
-    background: #fafafa;
-    color: #333;
-    line-height: 1.6;
-  }
-
-  header {
-    background: #ffffff;
-    border-bottom: 1px solid #e5e5e5;
-    padding: 28px 40px;
-  }
-
-  header h1 {
-    margin: 0;
-    font-size: 30px;
-  }
-
-  header p {
-    margin: 8px 0 0;
-    color: #666;
-    font-size: 15px;
-  }
-
-  .container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 30px 20px 50px;
-  }
-
-  .section {
+  /* Sections */
+  .lab-page .section {
     padding: 16px;
     border-radius: 14px;
     margin-bottom: 24px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   }
 
-  .section-white {
+  .lab-page .section-white {
     background: #ffffff;
   }
 
-  .section-orange {
+  .lab-page .section-orange {
     background: linear-gradient(135deg, #ffd54f, #ffb300);
     border: 1px solid #f5c28b;
   }
 
-  .section h2 {
+  .lab-page .section h2 {
     margin-top: 0;
     margin-bottom: 18px;
     font-size: 26px;
   }
 
-  .team-grid {
+  /* Team */
+  .lab-page .team-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 16px;
   }
 
-  .member-card {
+  .lab-page .member-card {
     background: transparent;
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 16px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
 
-  .member-card h3 {
+  .lab-page .member-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  }
+
+  .lab-page .member-card h3 {
     margin: 0 0 6px;
     font-size: 18px;
     padding-left: 10px;
     border-left: 3px solid #d9d9d9;
   }
 
-  .member-card p {
+  .lab-page .member-card p {
     margin: 0;
     color: #666;
     font-size: 16px;
     padding-left: 15px;
   }
 
-  .news-list {
+  /* News */
+  .lab-page .news-list {
     margin: 0;
     padding-left: 20px;
   }
 
-  .news-list li {
+  .lab-page .news-list li {
     margin-bottom: 10px;
   }
 
-  .status-box.vertical {
-    grid-template-columns: 1fr;
+  .lab-page .news-list a,
+  .lab-page .news-list a:visited {
+    color: #4a4a4a !important;
+    text-decoration: none !important;
   }
 
-  .status-box.vertical h3 {
-    margin: 0 0 6px;
-    font-size: 18px;
-    padding-left: 10px;
-    border-left: 3px solid #d9d9d9;
+  .lab-page .news-list a:hover,
+  .lab-page .news-list a:focus,
+  .lab-page .news-list a:focus-visible,
+  .lab-page .news-list a:active {
+    color: #8a5200 !important;
+    text-decoration: none !important;
   }
 
-  .status-box.vertical p {
-    margin: 0;
-    color: #666;
-    font-size: 16px;
-    padding-left: 15px;
-  }
-
-  .status-box {
+  /* Status */
+  .lab-page .status-box {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 16px;
   }
 
-  .status-item {
-    background: rgba(255,255,255,0.3);
+  .lab-page .status-box.vertical {
+    grid-template-columns: 1fr;
+  }
+
+  .lab-page .status-item {
+    background: rgba(255, 255, 255, 0.3);
     border-radius: 10px;
     padding: 16px;
     border: 1px solid #eee;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
 
-  .status-item strong {
+  .lab-page .status-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  }
+
+  .lab-page .status-item strong {
     display: block;
     margin-bottom: 8px;
     font-size: 16px;
   }
 
-  /* Related Links */
-  .section-links {
-    background: #f2f2f2;
-    border: none;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  .lab-page .status-box.vertical h3 {
+    margin: 0 0 6px;
+    font-size: 18px;
+    padding-left: 10px;
+    border-left: 3px solid #d9d9d9;
   }
 
-  .section-links h3 {
+  .lab-page .status-box.vertical p {
+    margin: 0;
+    color: #666;
+    font-size: 16px;
+    padding-left: 15px;
+  }
+
+  /* Related links */
+  .lab-page .section-links {
+    background: #f2f2f2;
+    border: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  .lab-page .section-links h3 {
     margin: 0 0 14px;
     font-size: 22px;
     padding-left: 12px;
@@ -267,7 +217,7 @@ classes: lab-page
     color: #333;
   }
 
-  .links-grid {
+  .lab-page .links-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     column-gap: 22px;
@@ -275,7 +225,7 @@ classes: lab-page
     align-items: stretch;
   }
 
-  .link-item {
+  .lab-page .link-item {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -286,7 +236,7 @@ classes: lab-page
     border-bottom: 1px solid #e5e5e5;
   }
 
-  .link-title-row {
+  .lab-page .link-title-row {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -294,7 +244,7 @@ classes: lab-page
     min-width: 0;
   }
 
-  .link-label {
+  .lab-page .link-label {
     display: block;
     margin: 0 0 3px;
     color: #999;
@@ -302,7 +252,7 @@ classes: lab-page
     font-weight: 600;
   }
 
-  .link-title {
+  .lab-page .link-title {
     display: block;
     min-width: 0;
     color: #4a4a4a !important;
@@ -310,30 +260,51 @@ classes: lab-page
     font-weight: 600;
     line-height: 1.4;
     text-decoration: none !important;
-  }
 
-  .link-title:visited {
-    color: #4a4a4a !important;
-  }
-
-  .link-title:hover,
-  .link-title:focus,
-  .link-title:focus-visible,
-  .link-title:active {
-    color: #8a5200 !important;
-    text-decoration: none !important;
+    /* Prevent theme button/link styling from leaking in */
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
     outline: none !important;
+  }
+
+  .lab-page .link-title:visited {
+    color: #4a4a4a !important;
+    background: transparent !important;
+    border: none !important;
     box-shadow: none !important;
   }
 
-  .link-item p {
+  .lab-page .link-title:hover {
+    color: #8a5200 !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    text-decoration: none !important;
+    outline: none !important;
+  }
+
+  .lab-page .link-title:focus,
+  .lab-page .link-title:focus-visible,
+  .lab-page .link-title:active {
+    color: #8a5200 !important;
+    background: transparent !important;
+    border: none !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
+    text-decoration: none !important;
+  }
+
+  .lab-page .link-item p {
     margin: 3px 0 0;
     color: #666;
     font-size: 12px;
     line-height: 1.5;
   }
 
-  .link-arrow {
+  .lab-page .link-arrow {
     flex: 0 0 auto;
     margin-top: 16px;
     color: #aaa !important;
@@ -341,47 +312,86 @@ classes: lab-page
     line-height: 1;
     font-weight: 600;
     text-decoration: none !important;
-  }
 
-  .link-arrow:visited {
-    color: #aaa !important;
-  }
-
-  .link-arrow:hover,
-  .link-arrow:focus,
-  .link-arrow:focus-visible,
-  .link-arrow:active {
-    color: #8a5200 !important;
-    text-decoration: none !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
     outline: none !important;
+  }
+
+  .lab-page .link-arrow:visited {
+    color: #aaa !important;
+    background: transparent !important;
+    border: none !important;
     box-shadow: none !important;
   }
 
-  /* Prevent keyboard-focus rings and tap highlights */
-  .lab-page *,
-  .lab-page *:focus,
-  .lab-page *:focus-visible,
-  .lab-page *:active {
-    outline-color: transparent !important;
+  .lab-page .link-arrow:hover {
+    color: #8a5200 !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    text-decoration: none !important;
   }
 
-  .lab-page a::-moz-focus-inner {
-    border: 0 !important;
+  .lab-page .link-arrow:focus,
+  .lab-page .link-arrow:focus-visible,
+  .lab-page .link-arrow:active {
+    color: #8a5200 !important;
+    background: transparent !important;
+    border: none !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
+    text-decoration: none !important;
   }
 
+  /* All ordinary links INSIDE the Lab page only */
+  .lab-page a {
+    outline: none;
+  }
+
+  .lab-page a:focus,
+  .lab-page a:focus-visible {
+    outline: none !important;
+  }
+
+  /* Responsive */
   @media (max-width: 800px) {
-    .links-grid {
+    .lab-page .links-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
       column-gap: 24px;
     }
   }
 
   @media (max-width: 600px) {
-    .links-grid {
+    .lab-page {
+      padding: 30px 20px 50px;
+    }
+
+    .lab-page .lab-title-block {
+      align-items: flex-start;
+      gap: 14px;
+    }
+
+    .lab-page .lab-title-logo {
+      width: 64px;
+    }
+
+    .lab-page .lab-title-text h1 {
+      font-size: 24px;
+    }
+
+    .lab-page .lab-title-text p {
+      font-size: 15px;
+    }
+
+    .lab-page .links-grid {
       grid-template-columns: 1fr;
     }
 
-    .section {
+    .lab-page .section {
       padding: 16px;
     }
   }
