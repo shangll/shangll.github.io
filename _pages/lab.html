@@ -84,7 +84,7 @@ classes: lab-page
     box-shadow: 0 6px 18px rgba(0,0,0,0.08);
   }
 
-  /* Other pages and general links remain unchanged */
+  /* General links */
   a {
     color: #1a73e8;
   }
@@ -93,15 +93,33 @@ classes: lab-page
     text-decoration: underline;
   }
 
-  /* News link only */
+  /* Remove visited / focus / active outlines globally */
+  a:visited,
+  a:focus,
+  a:focus-visible,
+  a:active {
+    outline: none !important;
+    outline-style: none !important;
+    outline-width: 0 !important;
+    outline-color: transparent !important;
+    box-shadow: none !important;
+  }
+
+  /* News link */
   .news-list a {
     color: #4a4a4a !important;
     text-decoration: none !important;
   }
 
-  .news-list a:hover {
+  .news-list a:visited,
+  .news-list a:hover,
+  .news-list a:focus,
+  .news-list a:focus-visible,
+  .news-list a:active {
     color: #8a5200 !important;
-    text-decoration: underline !important;
+    text-decoration: none !important;
+    outline: none !important;
+    box-shadow: none !important;
   }
 
   * {
@@ -294,9 +312,18 @@ classes: lab-page
     text-decoration: none !important;
   }
 
-  .link-title:hover {
+  .link-title:visited {
+    color: #4a4a4a !important;
+  }
+
+  .link-title:hover,
+  .link-title:focus,
+  .link-title:focus-visible,
+  .link-title:active {
     color: #8a5200 !important;
     text-decoration: none !important;
+    outline: none !important;
+    box-shadow: none !important;
   }
 
   .link-item p {
@@ -316,34 +343,26 @@ classes: lab-page
     text-decoration: none !important;
   }
 
-  .link-arrow:hover {
-    color: #8a5200 !important;
-    text-decoration: none !important;
+  .link-arrow:visited {
+    color: #aaa !important;
   }
 
-  /*
-   * Remove focus outlines ONLY inside the lab page.
-   * This does not affect other pages.
-   */
-  .lab-page a:focus,
-  .lab-page a:focus-visible,
-  .lab-page a:active,
-  .lab-page *:focus,
-  .lab-page *:focus-visible {
-    outline: 0 !important;
-    outline-width: 0 !important;
-    outline-style: none !important;
-    outline-color: transparent !important;
+  .link-arrow:hover,
+  .link-arrow:focus,
+  .link-arrow:focus-visible,
+  .link-arrow:active {
+    color: #8a5200 !important;
+    text-decoration: none !important;
+    outline: none !important;
     box-shadow: none !important;
   }
 
-  .lab-page a:focus,
-  .lab-page a:focus-visible,
-  .lab-page a:active {
-    border-color: transparent !important;
-    text-decoration: none !important;
-    background-image: none !important;
-    -webkit-tap-highlight-color: transparent !important;
+  /* Prevent keyboard-focus rings and tap highlights */
+  .lab-page *,
+  .lab-page *:focus,
+  .lab-page *:focus-visible,
+  .lab-page *:active {
+    outline-color: transparent !important;
   }
 
   .lab-page a::-moz-focus-inner {
