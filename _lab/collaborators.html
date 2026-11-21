@@ -38,19 +38,25 @@ classes: collaborators-page
   }
 
   /* Name with orange accent */
-  .collaborator-name {
+  .collaborators-page .collaborator-name {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+  
     margin: 0 0 14px;
-    padding-left: 12px;
+    padding: 0 0 0 12px;
+  
     border-left: 4px solid #ff8f00;
-    border-bottom: none;
+    border-bottom: none !important;
+  
     text-decoration: none !important;
-    box-shadow: none;
-    background-image: none;
+    box-shadow: none !important;
+    background-image: none !important;
+  
     color: #333;
     font-size: 21px;
     line-height: 1.4;
     font-weight: 600;
-    display: none !important;
   }
 
   .collaborator-institution {
@@ -142,7 +148,7 @@ classes: collaborators-page
 
       <div class="collaborator-info">
         <h2 class="collaborator-name">
-          Prof. Dr. Cheng-Ta Yang · 楊政達
+          Prof. Dr. Cheng-Ta Yang · 楊 政達
         </h2>
 
         <p class="collaborator-institution">
@@ -170,7 +176,7 @@ classes: collaborators-page
 
       <div class="collaborator-info">
         <h2 class="collaborator-name">
-          Dr. Lu-Chun Yeh
+          Dr. Lu-Chun Yeh · 葉 律君
         </h2>
 
         <p class="collaborator-institution">
@@ -186,7 +192,7 @@ classes: collaborators-page
       </div>
 
       <div class="collaborator-photo">
-        <img src="{{ '/images/collaborators/lu-chun-yeh.jpg' | relative_url }}"
+        <img src="{{ '/images/collaborators/lu-chun-yeh.png' | relative_url }}"
              alt="Lu-Chun Yeh">
       </div>
 
