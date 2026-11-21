@@ -38,25 +38,28 @@ classes: collaborators-page
   }
 
   /* Name with orange accent */
-  .collaborators-page .collaborator-name {
-    display: block;
-    visibility: visible;
-    opacity: 1;
-  
-    margin: 0 0 14px;
-    padding: 0 0 0 12px;
-  
-    border-left: 4px solid #ff8f00;
-    border-bottom: none !important;
-  
-    text-decoration: none !important;
+  .collaborator-name {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0 0 14px !important;
+    padding: 0 !important;
+    border: none !important;
+    background: none !important;
     box-shadow: none !important;
-    background-image: none !important;
-  
+    text-decoration: none !important;
     color: #333;
     font-size: 21px;
     line-height: 1.4;
     font-weight: 600;
+  }
+  
+  .collaborator-accent {
+    display: block;
+    flex: 0 0 4px;
+    width: 4px;
+    height: 1.4em;
+    background-color: #ff8f00;
   }
 
   .collaborator-institution {
