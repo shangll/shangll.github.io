@@ -515,13 +515,24 @@ classes: lab-page
           </div>
           <p>Visual Representation &amp; Computation Lab</p>
         </div>
-    
         
-        {% include base_path %}
-        {% for post in site.lab %}
-          {% include archive-single.html %}
-        {% endfor %}
-
+        <div class="link-item">
+          <span class="link-label">Collaborating Labs</span>
+        
+          <div class="link-title-row">
+            <a class="link-title"
+               href="{{ '/collaborators/' | relative_url }}">
+              Collaborators &amp; Research Partners
+            </a>
+        
+            <a class="link-arrow"
+               href="{{ '/collaborators/' | relative_url }}">
+              →
+            </a>
+          </div>
+        
+          <p>Research collaborators and collaborating laboratories</p>
+        </div>
     
         <div class="link-item">
           <span class="link-label">Community</span>
