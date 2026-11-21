@@ -1,58 +1,59 @@
+
 ---
 title: "Collaborators"
 layout: single
 permalink: /collaborators/
 author_profile: true
+classes: collaborators-page
 ---
 
 <style>
-  .collaborators-page {
+  .collaborators-page-content {
     max-width: 1000px;
     margin: 0 auto;
   }
 
   .collaborators-intro {
-    margin: 0 0 28px;
+    margin: 0 0 20px;
     color: #666;
     font-size: 16px;
     line-height: 1.7;
   }
 
-  .collaborators-grid {
+  /* Collaborator list */
+  .collaborator-list {
+    width: 100%;
+  }
+
+  .collaborator-row {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 20px;
+    grid-template-columns: minmax(0, 1fr) 180px;
+    align-items: center;
+    gap: 40px;
+    padding: 28px 0;
+    border-bottom: 1px solid #e5e5e5;
   }
 
-  .collaborator-card {
-    background: #fff;
-    border: 1px solid #e5e5e5;
-    border-radius: 12px;
-    padding: 22px 24px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
-    transition: transform 0.2s ease,
-                box-shadow 0.2s ease;
+  .collaborator-row:first-child {
+    padding-top: 12px;
   }
 
-  .collaborator-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-  }
-
-  .collaborator-card h2 {
-    margin: 0 0 12px;
+  /* Name with orange accent */
+  .collaborator-name {
+    margin: 0 0 14px;
     padding-left: 12px;
     border-left: 4px solid #ff8f00;
-    font-size: 20px;
-    line-height: 1.4;
     color: #333;
+    font-size: 21px;
+    line-height: 1.4;
+    font-weight: 600;
   }
 
   .collaborator-institution {
-    margin: 0 0 18px;
+    margin: 0 0 16px;
     color: #666;
     font-size: 15px;
-    line-height: 1.6;
+    line-height: 1.7;
   }
 
   .collaborator-link {
@@ -68,10 +69,27 @@ author_profile: true
     text-decoration: none;
   }
 
+  /* Photo on the right */
+  .collaborator-photo {
+    width: 180px;
+    height: 210px;
+    overflow: hidden;
+    background: #f2f2f2;
+    border-radius: 4px;
+  }
+
+  .collaborator-photo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  /* Back link */
   .collaborators-back {
-    margin-top: 32px;
+    margin-top: 30px;
     padding-top: 18px;
-    border-top: 1px solid #e5e5e5;
     font-size: 14px;
   }
 
@@ -84,54 +102,91 @@ author_profile: true
     color: #8a5200;
   }
 
+  /* Responsive layout */
   @media (max-width: 600px) {
-    .collaborators-grid {
-      grid-template-columns: 1fr;
+    .collaborator-row {
+      grid-template-columns: minmax(0, 1fr) 110px;
+      gap: 18px;
+      padding: 22px 0;
     }
 
-    .collaborator-card {
-      padding: 18px 20px;
+    .collaborator-name {
+      font-size: 18px;
+    }
+
+    .collaborator-institution {
+      font-size: 13px;
+    }
+
+    .collaborator-photo {
+      width: 110px;
+      height: 140px;
     }
   }
 </style>
 
-<div class="collaborators-page">
+<div class="collaborators-page-content">
 
   <p class="collaborators-intro">
     Research collaborators and collaborating laboratories.
   </p>
 
-  <div class="collaborators-grid">
+  <div class="collaborator-list">
 
-    <div class="collaborator-card">
-      <h2>Prof. Dr. Cheng-Ta Yang · 楊政達</h2>
+    <!-- Collaborator 1 -->
+    <section class="collaborator-row">
 
-      <p class="collaborator-institution">
-        Department of Psychology, National Cheng Kung University
-      </p>
+      <div class="collaborator-info">
+        <h2 class="collaborator-name">
+          Prof. Dr. Cheng-Ta Yang · 楊政達
+        </h2>
 
-      <a class="collaborator-link"
-         href="https://vcmlab.psychology.ncku.edu.tw/"
-         target="_blank"
-         rel="noopener noreferrer">
-        Lab Website →
-      </a>
-    </div>
+        <p class="collaborator-institution">
+          Department of Psychology, National Cheng Kung University
+        </p>
 
-    <div class="collaborator-card">
-      <h2>Dr. Lu-Chun Yeh</h2>
+        <a class="collaborator-link"
+           href="https://vcmlab.psychology.ncku.edu.tw/"
+           target="_blank"
+           rel="noopener noreferrer">
+          Lab Website →
+        </a>
+      </div>
 
-      <p class="collaborator-institution">
-        Justus Liebig University Giessen
-      </p>
+      <div class="collaborator-photo">
+        <img src="{{ '/images/collaborators/cheng-ta-yang.jpg' | relative_url }}"
+             alt="Cheng-Ta Yang">
+      </div>
 
-      <a class="collaborator-link"
-         href="https://sites.google.com/view/lu-chun-yeh"
-         target="_blank"
-         rel="noopener noreferrer">
-        Personal Website →
-      </a>
-    </div>
+    </section>
+
+
+    <!-- Collaborator 2 -->
+    <section class="collaborator-row">
+
+      <div class="collaborator-info">
+        <h2 class="collaborator-name">
+          Dr. Lu-Chun Yeh
+        </h2>
+
+        <p class="collaborator-institution">
+          Justus Liebig University Giessen
+        </p>
+
+        <a class="collaborator-link"
+           href="https://sites.google.com/view/lu-chun-yeh"
+           target="_blank"
+           rel="noopener noreferrer">
+          Personal Website →
+        </a>
+      </div>
+
+      <div class="collaborator-photo">
+        <img src="{{ '/images/collaborators/lu-chun-yeh.jpg' | relative_url }}"
+             alt="Lu-Chun Yeh">
+      </div>
+
+    </section>
 
   </div>
 
